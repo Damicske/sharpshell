@@ -33,7 +33,7 @@ Now use the NuGet Package Manager console to add a reference to SharpShell:
 Install-Package SharpShell
 ```
 
-For the project to be able to be registered, it will need to have a strong name, which means it will need to be signed. Open the project properties, go to the 'Signing' section and choose 'Sign the Assembly'.
+For the project to be able to be registered, it will need to have a strong name, which means it will need to be signed. Restart Visual Studio with Administration rights and reload your project. Go to project properties, go to the 'Signing' section and choose 'Sign the Assembly' (SNK = no password used).
 
 At this stage you have a new class library with the required references and signing setup to build a SharpShell DeskBand Server.
 
